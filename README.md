@@ -53,9 +53,14 @@ ORDER BY
     e1.EMP_ID DESC;
 
 
+## **How to Run**
 
-##   🧪 How to Run the Code
+> Make sure you have Python installed with the `requests` library.
+
+```bash
 pip install requests
 python main.py
+
+
 
 
