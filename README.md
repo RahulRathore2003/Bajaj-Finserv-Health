@@ -53,9 +53,6 @@ ORDER BY
     e1.EMP_ID DESC;
 
 
-## How to Run
-pip install requests
-python main.py
 
 
 
