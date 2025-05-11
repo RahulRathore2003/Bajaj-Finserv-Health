@@ -1,6 +1,6 @@
 import requests
 
-# Step 1: Generate webhook
+
 generate_url = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/PYTHON"
 payload = {
     "name": "Rahul Rathore", 
@@ -11,11 +11,11 @@ payload = {
 response = requests.post(generate_url, json=payload)
 data = response.json()
 
-# Extract webhook and token
+
 webhook_url = data['webhook']
 access_token = data['accessToken']
 
-# Final SQL query
+
 final_query = """
 SELECT 
     e1.EMP_ID,
@@ -34,7 +34,7 @@ ORDER BY
     e1.EMP_ID DESC;
 """
 
-# Step 2: Submit final SQL query
+
 headers = {
     "Authorization": access_token,
     "Content-Type": "application/json"
