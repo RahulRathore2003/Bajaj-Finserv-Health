@@ -52,7 +52,7 @@ GROUP BY
 ORDER BY 
     e1.EMP_ID DESC;
 
-## How to Run the Code
+## 🧾How to Run the Code
 pip install requests
 python main.py
 
