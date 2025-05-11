@@ -51,3 +51,9 @@ GROUP BY
     e1.EMP_ID, e1.FIRST_NAME, e1.LAST_NAME, d.DEPARTMENT_NAME
 ORDER BY 
     e1.EMP_ID DESC;
+
+## How to Run the Code
+pip install requests
+python main.py
+
+
