@@ -54,12 +54,9 @@ ORDER BY
 
 
 ## **How to Run**
-
-> Make sure you have Python installed with the `requests` library.
-
-```bash
 pip install requests
 python main.py
+
 
 
 
