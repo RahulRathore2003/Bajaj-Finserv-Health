@@ -2,9 +2,9 @@
 
 ## 👤 Candidate Information
 
-- **Name**: Rahul Rathore  
-- **Reg No**: 0827AL221106  
-- **Email**: rahulrathoreacro2003@gmail.com  
+- *Name*: Rahul Rathore  
+- *Reg No*: 0827AL221106  
+- *Email*: rahulrathoreacro2003@gmail.com  
 
 ---
 
@@ -12,18 +12,18 @@
 
 Build a Python application that:
 
-1. Sends a `POST` request to generate a **webhook and token**.
-2. Based on the returned SQL problem, submits the **final SQL query**.
-3. Uses the webhook and token for **secure submission**.
+1. Sends a POST request to generate a *webhook and token*.
+2. Based on the returned SQL problem, submits the *final SQL query*.
+3. Uses the webhook and token for *secure submission*.
 
-Your task was determined based on the last digit of the regNo (even number → **Question 2**).
+Your task was determined based on the last digit of the regNo (even number → *Question 2*).
 
 ## 🧠 SQL Problem Summary
 You are required to calculate the number of employees who are younger than each 
 employee, grouped by their respective departments. For each employee, return the 
 count of employees in the same department whose age is less than theirs.
 Output Format:
-• The output should contain the following columns:
+* The output should contain the following columns:
 1. EMP_ID: The ID of the employee.
 2. FIRST_NAME: The first name of the employee.
 3. LAST_NAME: The last name of the employee.
@@ -52,9 +52,8 @@ GROUP BY
 ORDER BY 
     e1.EMP_ID DESC;
 
+## How to Run*
 
 
-
-
-
-
+pip install requests
+python main.py
